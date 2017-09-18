@@ -1,0 +1,9 @@
+[10-Sep-2017 07:35:44 UTC] PHP Notice:  Undefined index: pass in /home/ecosplashapp/public_html/register/registro.php on line 5
+[10-Sep-2017 07:35:44 UTC] PHP Notice:  Undefined index: rpass in /home/ecosplashapp/public_html/register/registro.php on line 6
+[10-Sep-2017 07:35:44 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ecosplashapp/public_html/register/connect_db.php on line 4
+[10-Sep-2017 07:35:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home/ecosplashapp/public_html/register/connect_db.php:6
+Stack trace:
+#0 /home/ecosplashapp/public_html/register/registro.php(8): require()
+#1 /home/ecosplashapp/public_html/register/index.php(129): require('/home/ecosplash...')
+#2 {main}
+  thrown in /home/ecosplashapp/public_html/register/connect_db.php on line 6

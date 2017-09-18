@@ -1,0 +1,49 @@
+.team-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+}
+
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+ #carimage {
+
+ 	width: 120px;
+ }
+
+ .pie-pagina {
+margin: 0 auto;
+padding: 0 8px;
+background: #878787;
+width: 984px;
+overflow: hidden;
+}
+
+#footer  {
+
+margin-top: 250px;
+
+
+}
